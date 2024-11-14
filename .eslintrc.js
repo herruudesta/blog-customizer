@@ -25,11 +25,11 @@ module.exports = {
 		'plugin:import/warnings',
 		'plugin:import/typescript',
 		'plugin:eslint-comments/recommended',
+		'plugin:storybook/recommended',
 	],
 	rules: {
 		semi: [2, 'always'],
 		quotes: [2, 'single', { avoidEscape: true }],
-		'prettier/prettier': 0,
 		'no-unused-vars': 'off',
 		'@typescript-eslint/no-unused-vars': ['error'],
 		'@typescript-eslint/no-var-requires': 'off',
